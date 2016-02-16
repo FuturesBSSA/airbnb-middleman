@@ -1,0 +1,16 @@
+<% team = ["Seb","Anne", "Romain"] %>
+<% avatar = ["seb.jpg","anne.jpg", "romain.jpeg"] %>
+
+<div class="container text-center">
+  <div class="row">
+    <% team.each do |member, avatar| %>
+      <div class="col-md-4">
+        <div class="card">
+          <h3><%= member.capitalize %></h3>
+          <%= avatar %>
+          <%= image_tag "seb.jpg", class: "avatar-large" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
