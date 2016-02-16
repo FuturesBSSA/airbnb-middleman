@@ -1,0 +1,32 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+anne:
+  owner_name: Anne Collet
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Lovely house
+  city: Brussels, Belgium
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+melchior:
+  owner_name: Melchior Rutte
+  picture: http://www.brandblussers.nu/files/content/images/brandblussers-nijmegen.jpg
+  owner_picture: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/088/20d/3c60c63.jpg
+  name: Melchior's home
+  summary: Charming studio
+  city: Nijmegen, The Netherlands
+  wifi: true

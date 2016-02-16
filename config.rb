@@ -56,6 +56,11 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+
+["seb", "anne", "romain", "melchior"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
