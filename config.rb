@@ -57,7 +57,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 
-["seb", "anne", "romain", "melchior"].each do |name|
+["seb", "anne", "melchior"].each do |name|
   proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
 end
 

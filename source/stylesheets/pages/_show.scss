@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+}
+
+.form-control {
+  width: 100%;
+  display: block;
+}
+
+.box-grey form{
+  background: #F4F4F4;
+  padding: 30px;
+}
+
+
+.book-title {
+  color: black;
+}
+
+.img-circle {
+  width: 80px;
+}
+
+.description {
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.description {
+.fa-star {
+  color: yellow;
+}
+.fa-star-o {
+  color: grey;
+}
+}
+
+.owner {
+  padding: 20px;
+}
